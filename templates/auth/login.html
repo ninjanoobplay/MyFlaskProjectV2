@@ -1,0 +1,49 @@
+{% extends './base.html' %}
+{% block title %}Login{% endblock %}
+
+{% block customCSS %} 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+{% endblock %}
+
+{% block body %}
+<form class="main-login" action="/login" method="POST">
+    <div class="left-login">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <h1>Faça Login<br>Entre Para Nossa Equipe</h1>
+        <img src="static/img/students-animate.svg" class="left-login-image" alt="Students Animate">
+    </div>
+
+    <div class="right-login">
+        <div class="card-login">
+            <h1>LOGIN</h1>
+            <div class="textfield">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="username" name="username" placeholder="Usuário">
+            </div>
+            <div class="textfield">
+                <label for="password">Senha</label>
+                <input type="password" name="password" placeholder="Senha">
+                <div class="linktextfield">
+                    <a href="url">Esqueci a Senha</a> <label>|</label>
+                    <a href="cadastrar">Criar Conta</a>
+                </div>
+            </div>
+            <button class="btn-login" type="submit">Login</button>
+            {% with messages = get_flashed_messages() %}
+            {%  if messages %} 
+            <br>
+            {% for message in messages %}
+            <div class="alert alert-primary alert-dismissible" role="alert">
+                <strong>{{ message }}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+
+            {% endif %}
+
+            {% endwith %}
+        </div>
+    </div>
+    
+</form>
+{% endblock %}

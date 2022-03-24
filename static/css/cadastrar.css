@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: #201b2c;
+
+
+}
+body * {
+    box-sizing: border-box;
+}
+
+.main-cadastrar{
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cadastrar {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-cadastrar > h3 {
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 2px 0px;
+    
+}
+
+.linktextfield{
+    width: 100%;
+    color: #f0ffffde;
+    text-decoration: none;
+}
+
+
+.linktextfield > a{
+    color: #f0ffffde;
+    text-decoration: none;
+    font-size: 9pt;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    margin: 5px;
+    font-size: 12pt;
+}
+
+.textfield> input::placeholder{
+    color: #f0ffff94;
+}
+
+
+.btn-cadastrar{
+    width: 100%;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 1010px){
+    .card-cadastrar{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .card-cadastrar{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .card-cadastrar{
+        width: 70%;
+    }
+    .linktextfield > a{
+        font-size: 10pt;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .card-cadastrar{
+        width: 85%;
+    }
+    .linktextfield > a{
+        font-size: 11pt;
+    }
+    .textfield > input {
+        font-size: 13pt;
+    }
+
+    .textfield > label {
+        font-size: 13pt;
+    }
+}

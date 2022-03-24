@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/cadastrar.css">
+    <title>ProjectFlask Cadastrar-se</title>
+</head>
+<body>
+    <form class="main-cadastrar" action="/cadastrar" method="POST">
+        <div class="card-cadastrar">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <h3>CADASTRAR-SE</h3>
+            <div class="textfield">
+                <label for="fullname">Nome</label>
+                <input type="text" name="fullname" placeholder="Digite Seu Nome">
+            </div>
+            <!--<div class="textfield">
+                <label for="user-mail">E-mail</label>
+                <input type="text" name="user-mail" placeholder="Digite Seu E-mail">
+            </div>-->
+            <div class="textfield">
+                <label>Usuário</label>
+                <input type="text" name="username" placeholder="Digite Um Usuário">
+            </div>
+            <div class="textfield">
+                <label>Senha</label>
+                <input type="password" name="password" placeholder="Digite Uma Senha">
+            </div>
+            <div class="textfield">
+                <!--<label for="repeat-password">Repetir Senha</label>
+                <input type="password" name="password" placeholder="Digite Sua Senha Novamente">-->
+
+                <div class="linktextfield">
+                    <a href="/">JA TENHO UMA CONTA!</a>
+                </div>
+            </div>
+            <button class="btn-cadastrar">Cadastrar</button>
+        </div>
+    </form>
+</body>
+</html>
