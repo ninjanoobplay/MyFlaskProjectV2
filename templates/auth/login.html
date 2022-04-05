@@ -8,7 +8,7 @@
 {% block body %}
 <form class="main-login" action="/login" method="POST">
     <div class="left-login">
-        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" autocomplete="off">
         <h1>Faça Login<br>Entre Para Nossa Equipe</h1>
         <img src="static/img/students-animate.svg" class="left-login-image" alt="Students Animate">
     </div>
@@ -18,11 +18,11 @@
             <h1>LOGIN</h1>
             <div class="textfield">
                 <label for="usuario">Usuário</label>
-                <input type="text" id="username" name="username" placeholder="Usuário">
+                <input type="text" id="username" name="username" placeholder="Usuário" autocomplete="off">
             </div>
             <div class="textfield">
                 <label for="password">Senha</label>
-                <input type="password" name="password" placeholder="Senha">
+                <input type="password" name="password" placeholder="Senha" autocomplete="off">
                 <div class="linktextfield">
                     <a href="url">Esqueci a Senha</a> <label>|</label>
                     <a href="cadastrar">Criar Conta</a>

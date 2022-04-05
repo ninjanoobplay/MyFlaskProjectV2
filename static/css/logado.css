@@ -1,4 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: #201b2c;
+
+
+}
+body * {
+    box-sizing: border-box;
+}
+
+
+
+
 a * {
     box-sizing: border-box;
 }
@@ -18,4 +34,71 @@ a * {
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.main-logado{
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-logado {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-logado > h3 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #77ffc0;
+    align-content: center;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.card-logado > button {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.card-logado > a {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+
+
+@media only screen and (max-width: 980px){
+    .card-logado{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 690px){
+    .card-logado{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .card-logado{
+        width: 80%;
+    }
 }

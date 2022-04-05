@@ -1,0 +1,20 @@
+{% extends './home.html' %}
+{% block title %}Home{% endblock %}
+
+{% block customCSS %} 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/logado.css') }}">
+{% endblock %}
+
+{% block body %}
+<form class="main-logado" action="logout" method="GET">
+    <div class="card-logado">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" autocomplete="off">
+    
+        <h3>Bem-vindo {{ current_user.fullname }}</h3>
+        <!-- Butão logout -->
+        <a href="{{ url_for('logout') }}">
+        <button class="btn-logout">Encerrar Sessão</button>
+        </a>
+    </div>
+</form>
+{% endblock %}
