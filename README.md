@@ -11,6 +11,7 @@ Recomendo Uma Versão Do Python Compativel com o Flask Para Não Ter Nenhum Prob
 Eu Estou Utilizando a Versão 3.8.0, Caso Queira Baixar
 
 Basta Clicar no Icone Abaixo Para Ser Redirecionado:
+
 [![Python 3.8.0 Download](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-380/)
 
 Para Testes No Banco De Dados no LocalHost Utilize o XAMPP e ative o  Apache e MySQL.
