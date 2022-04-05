@@ -16,7 +16,7 @@ Basta Clicar no Icone Abaixo Para Ser Redirecionado:
 
 Para Testes No Banco De Dados no LocalHost Utilize o XAMPP e ative o  Apache e MySQL.
 
-<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProject/blob/main/imgs/XAMPPstart.png" width="400"/>
+<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/XAMPPstart.png" width="400"/>
 
 Caso Não queira usar o LocalHost e queira usar seu proprio banco de dados
 
@@ -38,11 +38,11 @@ SQLALCHEMY_DATABASE_URI = 'sqlite:////tmp/test.db'
 
 ### Login:
 
-<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProject/blob/main/imgs/LayoutLogin.png" width="400"/>
+<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/LayoutLogin.png" width="400"/>
 
 ### Cadastro:
 
-<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProject/blob/main/imgs/LayoutCadastro.png" width="400"/>
+<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/LayoutCadastro.png" width="400"/>
 
 ## Como Abrir Esse Projeto Para Modificar e Testar:
 
@@ -52,6 +52,6 @@ Basta Editar e deixar o mesmo nome do arquivo que  está na pasta **Static**, ou
 
 Procurar a Linha que faz o link com o arquivo HTML que você quer editar, como na imagem abaixo:
 
-<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProject/blob/main/imgs/EditLineHtml.png" width="400"/>
+<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/EditLineHtml.png" width="400"/>
 
 ***É Basicamente Isso,Obrigado!***
