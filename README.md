@@ -16,8 +16,7 @@ Basta Clicar no Icone Abaixo Para Ser Redirecionado:
 
 Para Testes No Banco De Dados no LocalHost Utilize o XAMPP e ative o  Apache e MySQL.
 
-<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProjectV2
-/blob/main/imgs/XAMPPstart.png"/>
+<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProjectV2/blob/main/imgs/XAMPPstart.png"/>
 
 Caso Não queira usar o LocalHost e queira usar seu proprio banco de dados
 
@@ -78,13 +77,11 @@ python3 meu_site.py
 
 ### Login:
 
-<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProjectV2
-/blob/main/imgs/LayoutLogin.png" width="600"/>
+<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProjectV2/blob/main/imgs/LayoutLogin.png" width="600"/>
 
 ### Cadastro:
 
-<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProjectV2
-/blob/main/imgs/LayoutCadastro.png" width="600"/>
+<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProjectV2/blob/main/imgs/LayoutCadastro.png" width="600"/>
 
 ## Como Abrir Esse Projeto Para Modificar e Testar:
 
