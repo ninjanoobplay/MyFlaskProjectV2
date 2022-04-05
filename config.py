@@ -5,7 +5,7 @@ class Config:
 
 
 class DevelopmentConfig(Config):
-    DEBUG = True
+    DEBUG = False
     # Essa Config Abaixo é para Flask-SQLAlchemy
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     # Use isso como Exemplo SQLALCHEMY_DATABASE_URI = 'mysql://username:password@server/db'
