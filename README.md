@@ -94,7 +94,6 @@ Basta Editar e deixar o mesmo nome do arquivo que  está na pasta **Static**, ou
 
 Procurar a Linha que faz o link com o arquivo HTML que você quer editar, como na imagem abaixo:
 
-<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProjectV2
-/blob/main/imgs/EditLineHtml.png" width="400"/>
+<img align="center" src="https://github.com/ninjanoobplay/MyFlaskProjectV2/blob/main/imgs/EditLineHtml.png" width="400"/>
 
 ***É Basicamente Isso,Obrigado!***
