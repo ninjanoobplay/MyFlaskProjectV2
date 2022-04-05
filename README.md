@@ -16,7 +16,7 @@ Basta Clicar no Icone Abaixo Para Ser Redirecionado:
 
 Para Testes No Banco De Dados no LocalHost Utilize o XAMPP e ative o  Apache e MySQL.
 
-<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/XAMPPstart.png" width="400"/>
+<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/XAMPPstart.png"/>
 
 Caso Não queira usar o LocalHost e queira usar seu proprio banco de dados
 
@@ -34,15 +34,54 @@ Ou
 SQLALCHEMY_DATABASE_URI = 'sqlite:////tmp/test.db'
 ```
 
+**Obs:Recomendo Utilizar Um Ambiente Virtual**
+
+Abra o Terminal, Vá Para a Pasta Do Seu Projeto e Digite:
+
+Para Windows:
+```
+python -m venv venv
+```
+Para Linux:
+```
+python3 -m venv venv
+```
+
+Pronto Agora Para Rodar o Programa Primeiro Vamos Ativar Nosso Ambiente Virtual:
+```
+venv\Scripts\activate
+```
+Caso queira sair só digitar:
+```
+deactivate
+```
+Obs: `venv` Foi o Nome que escolhemos logo em cima, E Certifique de estar na pasta do projeto!
+
+Logo Em Seguida  Ja Pode Baixar Todas as Dependencias Para Esse Projeto com o Comando:
+```
+pip install -r requirements.txt
+```
+
+E Para Iniciar o Projeto
+
+Para Windows:
+```
+python meu_site.py
+```
+Para Linux:
+```
+python3 meu_site.py
+```
+
 ## Imagens do Layout Que Estou Utilizando:
 
 ### Login:
 
-<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/LayoutLogin.png" width="400"/>
+<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/LayoutLogin.png" width="600"/>
 
 ### Cadastro:
 
-<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/LayoutCadastro.png" width="400"/>
+<img align="center" src="https://github.com/ninjanoobplay/FlaskEmAndamento/blob/main/imgs/LayoutCadastro.png" width="600"/>
 
 ## Como Abrir Esse Projeto Para Modificar e Testar:
 
